@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Chapter10">
+      <UniqueIdentifier>{ab4aad61-c235-42dc-836b-93c20c07926a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Chapter10">
+      <UniqueIdentifier>{87dae8ab-4090-4d49-bc55-dafd773d850c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter11">
+      <UniqueIdentifier>{7afcd364-c3f7-4c0e-9b0c-1c8a6076bd8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Chapter11">
+      <UniqueIdentifier>{611aedba-b804-43d2-a9ee-7ea8569fba60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter12">
+      <UniqueIdentifier>{0001158d-8485-407b-bfb3-faab7e8f4c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Chapter12">
+      <UniqueIdentifier>{304f791b-3894-46b5-84d8-b738895dd732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter13">
+      <UniqueIdentifier>{599e6416-3a3c-4fc4-a71a-fabb1a69ba57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Chapter13">
+      <UniqueIdentifier>{d723d1b7-5820-4b36-ba15-0c5eec7a2067}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Chapter10 개념.txt">
+      <Filter>소스 파일\Chapter10</Filter>
+    </Text>
+    <Text Include="주니어.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
+    <Text Include="Chapter12 개념.txt">
+      <Filter>소스 파일\Chapter12</Filter>
+    </Text>
+    <Text Include="Chapter13 개념.txt">
+      <Filter>소스 파일\Chapter13</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stack.h">
+      <Filter>헤더 파일\Chapter10</Filter>
+    </ClInclude>
+    <ClInclude Include="stock00.h">
+      <Filter>헤더 파일\Chapter10</Filter>
+    </ClInclude>
+    <ClInclude Include="stock10.h">
+      <Filter>헤더 파일\Chapter10</Filter>
+    </ClInclude>
+    <ClInclude Include="stock20.h">
+      <Filter>헤더 파일\Chapter10</Filter>
+    </ClInclude>
+    <ClInclude Include="mytime0.h">
+      <Filter>헤더 파일\Chapter11</Filter>
+    </ClInclude>
+    <ClInclude Include="mytime1.h">
+      <Filter>헤더 파일\Chapter11</Filter>
+    </ClInclude>
+    <ClInclude Include="mytime2.h">
+      <Filter>헤더 파일\Chapter11</Filter>
+    </ClInclude>
+    <ClInclude Include="mytime3.h">
+      <Filter>헤더 파일\Chapter11</Filter>
+    </ClInclude>
+    <ClInclude Include="vect.h">
+      <Filter>헤더 파일\Chapter11</Filter>
+    </ClInclude>
+    <ClInclude Include="stonewt1.h">
+      <Filter>헤더 파일\Chapter11</Filter>
+    </ClInclude>
+    <ClInclude Include="stringbad.h">
+      <Filter>헤더 파일\Chapter12</Filter>
+    </ClInclude>
+    <ClInclude Include="string1.h">
+      <Filter>헤더 파일\Chapter12</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>헤더 파일\Chapter12</Filter>
+    </ClInclude>
+    <ClInclude Include="tabtenn0.h">
+      <Filter>헤더 파일\Chapter13</Filter>
+    </ClInclude>
+    <ClInclude Include="tabtenn1.h">
+      <Filter>헤더 파일\Chapter13</Filter>
+    </ClInclude>
+    <ClInclude Include="brass.h">
+      <Filter>헤더 파일\Chapter13</Filter>
+    </ClInclude>
+    <ClInclude Include="acctabc.h">
+      <Filter>헤더 파일\Chapter13</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="usestock0.cpp">
+      <Filter>소스 파일\Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="usestock1.cpp">
+      <Filter>소스 파일\Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="usestock2.cpp">
+      <Filter>소스 파일\Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="stacker.cpp">
+      <Filter>소스 파일\Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="stack.cpp">
+      <Filter>소스 파일\Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="stock00.cpp">
+      <Filter>소스 파일\Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="stock10.cpp">
+      <Filter>소스 파일\Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="stock20.cpp">
+      <Filter>소스 파일\Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter11 개념.txt">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="usetime0.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="usetime1.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="usetime2.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="usetime3.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="mytime0.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="mytime1.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="mytime2.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="mytime3.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="vect.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="randwalk.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="stonewt.h">
+      <Filter>헤더 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="stonewt.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="stone.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="stonewt1.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="stone1.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="stringbad.cpp">
+      <Filter>소스 파일\Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="vegnews.cpp">
+      <Filter>소스 파일\Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="string1.cpp">
+      <Filter>소스 파일\Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="saying1.cpp">
+      <Filter>소스 파일\Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="sayings2.cpp">
+      <Filter>소스 파일\Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="placenew1.cpp">
+      <Filter>소스 파일\Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="placenew2.cpp">
+      <Filter>소스 파일\Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="queue.cpp">
+      <Filter>소스 파일\Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="bank.cpp">
+      <Filter>소스 파일\Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="tabtenn0.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="usett0.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="tabtenn1.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="usett1.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="brass.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="usebrass1.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="usebrass2.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
