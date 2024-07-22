@@ -37,6 +37,12 @@
     <Filter Include="헤더 파일\Chapter13">
       <UniqueIdentifier>{d723d1b7-5820-4b36-ba15-0c5eec7a2067}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter13_14">
+      <UniqueIdentifier>{5284f963-7f19-4ea9-b54d-fe2d77d227db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Chapter13_14">
+      <UniqueIdentifier>{62528179-8380-4022-a46b-17936550a7ab}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Chapter10 개념.txt">
@@ -103,6 +109,9 @@
     </ClInclude>
     <ClInclude Include="acctabc.h">
       <Filter>헤더 파일\Chapter13</Filter>
+    </ClInclude>
+    <ClInclude Include="dma.h">
+      <Filter>헤더 파일\Chapter13_14</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -224,6 +233,9 @@
       <Filter>소스 파일\Chapter13</Filter>
     </ClCompile>
     <ClCompile Include="usebrass2.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="acctabc.cpp">
       <Filter>소스 파일\Chapter13</Filter>
     </ClCompile>
   </ItemGroup>
