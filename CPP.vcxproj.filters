@@ -238,5 +238,11 @@
     <ClCompile Include="acctabc.cpp">
       <Filter>소스 파일\Chapter13</Filter>
     </ClCompile>
+    <ClCompile Include="dma.cpp">
+      <Filter>소스 파일\Chapter13_14</Filter>
+    </ClCompile>
+    <ClCompile Include="usedma.cpp">
+      <Filter>소스 파일\Chapter13_14</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
